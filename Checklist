@@ -1,0 +1,17 @@
+navigate to my 'code' folder
+make a new folder (named project)
+inside the folder create a file called 'index.js'
+open terminal and navigate to the proect folder
+run command "npm init -y"
+run command "npm install express"
+open index.js
+require xpress at the top of the file 
+initialize the app object/variable
+
+Create the home page route
+    call app.get()
+    set'/' as the path (first arg)
+    write callback function with req,res
+    call res.send('hello world')
+
+call app.listen(3001) to keep server open
